@@ -1,56 +1,56 @@
 {
   "active": true,
-  "hostname": "alll-6",
+  "hostname": "alll-7",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "disk_free_gb": 76.9,
     "cpu_threads": 4,
+    "disk_free_gb": 79.8,
     "ram_gb": 16.0
   },
   "rdp_port": 3389,
   "rdp_user": "Alsukabgs",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-11-01T13:34:12Z",
-  "expires_at": "2026-11-01T19:16:12Z",
+  "started_at": "2026-11-01T19:22:08Z",
+  "expires_at": "2026-11-02T01:04:08Z",
   "duration_menit": 342,
-  "run_id": "41311814058",
+  "run_id": "41341293026",
   "run_attempt": "1",
-  "run_number": "6",
-  "run_url": "https://github.com/rosiddi35-netizen/Tt/actions/runs/41311814058",
+  "run_number": "7",
+  "run_url": "https://github.com/rosiddi35-netizen/Tt/actions/runs/41341293026",
   "mode": "bersih+win10",
   "persist": {
+    "restored": true,
     "profile": "C:\\Users\\Alsukabgs",
     "source": "xyrdp-state.7z.enc",
-    "files": 315,
-    "restored": true
+    "files": 315
   },
   "storage": {
     "status": "ok",
     "mode": "boost-ringan",
-    "before_gb": 76.74,
-    "after_gb": 113.77,
-    "gained_gb": 37.03,
+    "before_gb": 79.62,
+    "after_gb": 116.59,
+    "gained_gb": 36.97,
     "removed_targets": 32,
     "drives": [
       {
-        "free_gb": 113.77,
-        "used_gb": 141.67,
-        "letter": "C",
-        "size_gb": 255.45
+        "used_gb": 138.85,
+        "free_gb": 116.59,
+        "size_gb": 255.45,
+        "letter": "C"
       },
       {
-        "free_gb": 219.86,
-        "used_gb": 0.13,
-        "letter": "D",
-        "size_gb": 219.98
+        "used_gb": 3.0,
+        "free_gb": 147.0,
+        "size_gb": 150.0,
+        "letter": "D"
       }
     ],
     "game_dir": "D:\\Games (disarankan untuk GTA)",
     "note": "Cleanup selesai. gained_gb adalah perubahan ruang aktual, bukan kapasitas yang dijanjikan. Target terkunci bisa tersisa.",
-    "updated_at": "2026-11-01T13:39:46.7061478Z"
+    "updated_at": "2026-11-01T19:30:13.4002383Z"
   },
   "fps_boost": {
     "status": "ok",
@@ -65,9 +65,9 @@
     ],
     "skipped": [],
     "applied_count": 7,
-    "elapsed_sec": 1.2,
+    "elapsed_sec": 1.3,
     "note": "Tweak rendering RDP & scheduler OS. Tidak menaikkan FPS game 3D tanpa GPU fisik; Mesa3D/WARP tetap dipakai.",
-    "updated_at": "2026-11-01T13:39:48.2288571Z"
+    "updated_at": "2026-11-01T19:30:15.1153616Z"
   },
   "win10": {
     "look": "ok",
@@ -84,40 +84,40 @@
     "wallpaper": "xyverse_configured_for_user_logon"
   },
   "grafis": {
+    "mode": "software",
     "mesa": "26.2.5",
     "opengl": "4.6 (Mesa llvmpipe system-wide x64/x86 + OpenGL ES 3.2)",
     "path": "C:\\XyRDP\\grafis\\mesa-x64",
     "vulkan": "lavapipe 1.3 (CPU)",
-    "mode": "software",
     "adapters": "Microsoft Hyper-V Video"
   },
   "games": {
-    "blender": {
+    "memu": {
       "status": "ready",
-      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1"
-    },
-    "ets2": {
-      "status": "ready",
-      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1"
+      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1"
     },
     "roblox": {
       "status": "ready-antivm",
       "launcher": "C:\\Games\\Roblox\\Launch-Roblox-AntiVM.ps1"
     },
-    "minecraft_java": {
-      "tlauncher_jar": true,
-      "opengl46": true,
-      "official_exe": true,
-      "prismlauncher": true,
-      "status": "ready"
-    },
-    "memu": {
+    "ets2": {
       "status": "ready",
-      "launcher": "C:\\Games\\MEmu\\Launch-MEmu.ps1"
+      "launcher": "C:\\Games\\ETS2\\Launch-ETS2-Free.ps1"
+    },
+    "minecraft_java": {
+      "opengl46": true,
+      "prismlauncher": true,
+      "tlauncher_jar": true,
+      "status": "ready",
+      "official_exe": true
     },
     "fivem": {
-      "status": true,
-      "sound": true
+      "sound": true,
+      "status": true
+    },
+    "blender": {
+      "status": "ready",
+      "launcher": "C:\\Games\\Blender\\Launch-Blender.ps1"
     }
   },
   "extras": {
@@ -152,20 +152,20 @@
   },
   "akses": {
     "tunnel": {
-      "host": "100.96.167.72",
-      "outside": "tailscale",
       "port": 3389,
+      "host": "100.90.2.96",
+      "outside": "tailscale",
+      "address": "100.90.2.96:3389",
       "selftest": "ok",
-      "status": "ok",
-      "address": "100.96.167.72:3389"
+      "status": "ok"
     },
     "mode": "tailscale",
     "tailscale": {
-      "ip": "100.96.167.72",
-      "magicdns": "alll.taila4c66b.ts.net.",
-      "hostname": "Alll",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "status": "ok"
+      "ip": "100.90.2.96",
+      "hostname": "Alll",
+      "status": "ok",
+      "magicdns": "alll.taila4c66b.ts.net."
     }
   }
 }
